@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="1000dp"
+    android:background="#D5D3D3"
+    tools:context="com.example.mapsapp.Settings">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="account_settings"
+            android:textColor="#000000"
+            android:textSize="26sp"
+            android:layout_marginLeft="@dimen/fab_margin" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+
+
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:outlineAmbientShadowColor="#000000"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Edit Profile"
+                    android:textSize="20sp"
+                    android:layout_marginTop="4dp"
+                    tools:ignore="HardcodedText"
+                    android:layout_marginLeft="@dimen/fab_margin" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Edit Profile"
+                    android:layout_marginLeft="@dimen/fab_margin"
+                    android:textSize="20dp"
+
+                    android:layout_marginTop="4dp"/>
+
+                <View
+                    android:id="@+id/divider1"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="edit_profile"
+                    android:layout_marginStart="@dimen/fab_margin"
+                    android:textSize="20sp"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="@dimen/fab_margin" />
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/customer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Edit Profile"
+                    android:textSize="20sp"
+                    android:onClick="openProfile"
+                    android:layout_marginTop="4dp"
+                    tools:ignore="HardcodedText"
+                    android:layout_marginLeft="@dimen/fab_margin" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Edit Profile"
+                    android:layout_marginLeft="@dimen/fab_margin"
+                    android:textSize="20dp"
+                    android:layout_marginTop="4dp"/>
+
+                <View
+                    android:id="@+id/divider6"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="edit_profile"
+                    android:layout_marginStart="@dimen/fab_margin"
+                    android:textSize="20sp"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="@dimen/fab_margin" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:text="Discovery Settings"
+            android:textColor="#000000"
+            android:textSize="26dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:outlineAmbientShadowColor="#000000"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Location"
+                    android:layout_marginLeft="@dimen/fab_margin"
+                    android:textSize="20dp"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:text="Distance"
+            android:textColor="#000000"
+            android:textSize="26dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:outlineAmbientShadowColor="#000000"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbarSize="12dp"/>
+
+
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:text="Distance"
+            android:textColor="#000000"
+            android:textSize="26dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:outlineAmbientShadowColor="#000000"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit Profile"
+                android:textSize="20sp"
+                android:layout_marginTop="4dp"
+                tools:ignore="HardcodedText"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_marginStart="@dimen/fab_margin" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="edit_profile"
+                android:layout_marginStart="@dimen/fab_margin"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="@dimen/fab_margin" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="v1.0"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drukey Soft Tech"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
